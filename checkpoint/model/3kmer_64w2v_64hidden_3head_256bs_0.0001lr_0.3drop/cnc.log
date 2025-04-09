@@ -1,0 +1,150 @@
+2025-04-09 17:39:17,203 - cncFinder.py[line:33] - INFO: build model with params:
+in_dim: 64
+hidden_dim: 64
+n_heads: 3
+device: cpu
+
+2025-04-09 17:39:17,207 - cncFinder.py[line:42] - INFO: model info:
+Classifier(
+  (conv1): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv2): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv3): GATConv(
+    (fc): Linear(in_features=64, out_features=192, bias=False)
+    (feat_drop): Dropout(p=0.3, inplace=False)
+    (attn_drop): Dropout(p=0.3, inplace=False)
+    (leaky_relu): LeakyReLU(negative_slope=0.2)
+  )
+  (classifier): Sequential(
+    (0): Dropout(p=0.3, inplace=False)
+    (1): Linear(in_features=64, out_features=256, bias=True)
+    (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): ReLU(inplace=True)
+    (4): Dropout(p=0.3, inplace=False)
+    (5): Linear(in_features=256, out_features=128, bias=True)
+    (6): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): ReLU(inplace=True)
+    (8): Dropout(p=0.3, inplace=False)
+    (9): Linear(in_features=128, out_features=2, bias=True)
+  )
+)
+2025-04-09 17:39:17,207 - cncFinder.py[line:53] - INFO: Loading model from /root/cncFinder/checkpoint/model/3kmer_64w2v_64hidden_3head_256bs_0.0001lr_0.3drop/GraphLncPro_1.pth
+2025-04-09 17:39:17,211 - cncFinder.py[line:33] - INFO: build model with params:
+in_dim: 64
+hidden_dim: 64
+n_heads: 3
+device: cpu
+
+2025-04-09 17:39:17,214 - cncFinder.py[line:42] - INFO: model info:
+Classifier(
+  (conv1): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv2): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv3): GATConv(
+    (fc): Linear(in_features=64, out_features=192, bias=False)
+    (feat_drop): Dropout(p=0.3, inplace=False)
+    (attn_drop): Dropout(p=0.3, inplace=False)
+    (leaky_relu): LeakyReLU(negative_slope=0.2)
+  )
+  (classifier): Sequential(
+    (0): Dropout(p=0.3, inplace=False)
+    (1): Linear(in_features=64, out_features=256, bias=True)
+    (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): ReLU(inplace=True)
+    (4): Dropout(p=0.3, inplace=False)
+    (5): Linear(in_features=256, out_features=128, bias=True)
+    (6): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): ReLU(inplace=True)
+    (8): Dropout(p=0.3, inplace=False)
+    (9): Linear(in_features=128, out_features=2, bias=True)
+  )
+)
+2025-04-09 17:39:17,214 - cncFinder.py[line:53] - INFO: Loading model from /root/cncFinder/checkpoint/model/3kmer_64w2v_64hidden_3head_256bs_0.0001lr_0.3drop/GraphLncPro_2.pth
+2025-04-09 17:39:17,217 - cncFinder.py[line:33] - INFO: build model with params:
+in_dim: 64
+hidden_dim: 64
+n_heads: 3
+device: cpu
+
+2025-04-09 17:39:17,219 - cncFinder.py[line:42] - INFO: model info:
+Classifier(
+  (conv1): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv2): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv3): GATConv(
+    (fc): Linear(in_features=64, out_features=192, bias=False)
+    (feat_drop): Dropout(p=0.3, inplace=False)
+    (attn_drop): Dropout(p=0.3, inplace=False)
+    (leaky_relu): LeakyReLU(negative_slope=0.2)
+  )
+  (classifier): Sequential(
+    (0): Dropout(p=0.3, inplace=False)
+    (1): Linear(in_features=64, out_features=256, bias=True)
+    (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): ReLU(inplace=True)
+    (4): Dropout(p=0.3, inplace=False)
+    (5): Linear(in_features=256, out_features=128, bias=True)
+    (6): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): ReLU(inplace=True)
+    (8): Dropout(p=0.3, inplace=False)
+    (9): Linear(in_features=128, out_features=2, bias=True)
+  )
+)
+2025-04-09 17:39:17,219 - cncFinder.py[line:53] - INFO: Loading model from /root/cncFinder/checkpoint/model/3kmer_64w2v_64hidden_3head_256bs_0.0001lr_0.3drop/GraphLncPro_3.pth
+2025-04-09 17:39:17,222 - cncFinder.py[line:33] - INFO: build model with params:
+in_dim: 64
+hidden_dim: 64
+n_heads: 3
+device: cpu
+
+2025-04-09 17:39:17,225 - cncFinder.py[line:42] - INFO: model info:
+Classifier(
+  (conv1): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv2): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv3): GATConv(
+    (fc): Linear(in_features=64, out_features=192, bias=False)
+    (feat_drop): Dropout(p=0.3, inplace=False)
+    (attn_drop): Dropout(p=0.3, inplace=False)
+    (leaky_relu): LeakyReLU(negative_slope=0.2)
+  )
+  (classifier): Sequential(
+    (0): Dropout(p=0.3, inplace=False)
+    (1): Linear(in_features=64, out_features=256, bias=True)
+    (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): ReLU(inplace=True)
+    (4): Dropout(p=0.3, inplace=False)
+    (5): Linear(in_features=256, out_features=128, bias=True)
+    (6): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): ReLU(inplace=True)
+    (8): Dropout(p=0.3, inplace=False)
+    (9): Linear(in_features=128, out_features=2, bias=True)
+  )
+)
+2025-04-09 17:39:17,225 - cncFinder.py[line:53] - INFO: Loading model from /root/cncFinder/checkpoint/model/3kmer_64w2v_64hidden_3head_256bs_0.0001lr_0.3drop/GraphLncPro_4.pth
+2025-04-09 17:39:17,227 - cncFinder.py[line:33] - INFO: build model with params:
+in_dim: 64
+hidden_dim: 64
+n_heads: 3
+device: cpu
+
+2025-04-09 17:39:17,229 - cncFinder.py[line:42] - INFO: model info:
+Classifier(
+  (conv1): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv2): GraphConv(in=64, out=64, normalization=none, activation=None)
+  (conv3): GATConv(
+    (fc): Linear(in_features=64, out_features=192, bias=False)
+    (feat_drop): Dropout(p=0.3, inplace=False)
+    (attn_drop): Dropout(p=0.3, inplace=False)
+    (leaky_relu): LeakyReLU(negative_slope=0.2)
+  )
+  (classifier): Sequential(
+    (0): Dropout(p=0.3, inplace=False)
+    (1): Linear(in_features=64, out_features=256, bias=True)
+    (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): ReLU(inplace=True)
+    (4): Dropout(p=0.3, inplace=False)
+    (5): Linear(in_features=256, out_features=128, bias=True)
+    (6): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): ReLU(inplace=True)
+    (8): Dropout(p=0.3, inplace=False)
+    (9): Linear(in_features=128, out_features=2, bias=True)
+  )
+)
+2025-04-09 17:39:17,229 - cncFinder.py[line:53] - INFO: Loading model from /root/cncFinder/checkpoint/model/3kmer_64w2v_64hidden_3head_256bs_0.0001lr_0.3drop/GraphLncPro_5.pth
