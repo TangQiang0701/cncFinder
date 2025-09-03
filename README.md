@@ -1,4 +1,4 @@
-# cncFinder
+# A graph attention network-based interpretable learning model to identify bifunctional long non-coding RNAs
 
 ## Table of Contents
 - [Dataset Descriptions](#dataset-descriptions)
