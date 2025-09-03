@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Dataset Descriptions](#dataset-descriptions)
   - [Test Dataset](#1-test-dataset)
-  - [Model testing dataset](#2-model-testing-dataset)
+  - [Cross Species testing dataset](#2-cross-species-testing-dataset)
   - [Training dataset](#3-training-dataset)
   - [Orgin training dataset](#4-orgin-training-dataset)
 - [How-to-run-cncFinder?](#how-to-run-cncfinder)
@@ -14,12 +14,12 @@
 ### Dataset Descriptions
 
 #### 1. Test Dataset
-***File path***: `cncFinder/data/Test_dataset.xlsx`
+***File path***: `cncFinder/data/test.fasta`
 
 This test datasets including all test datasets used in this study.
 
-#### 2. Model testing dataset
-***File path***: `cncFinder/data/test_neg13.fasta`
+#### 2. Cross Species testing dataset
+***File path***: `cncFinder/data/test_cross_species.fasta`
 
 this test dataset specifically for testing the cncFinder.
 
